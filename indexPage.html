@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title>
+		<meta name="description" content="Coursw work" />
+		<meta name="keywords" content="HTML,CSS,JS,Portfolio,Resume,student" />
+		<meta name="author" content="Nitesh Thapa" />
+		<meta http-equiv="refresh" content="2" />
+		<!--Linking css-->
+		<link rel="stylesheet" type="text/css" href="CSS/index.css">
+		<!--importing font from google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Lora|Oswald" rel="stylesheet">
+		<!--importing icons-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>/*Styling for nav bar and footer*/
+			/*START >>>css for nav bar*/
+			.navBar {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0;
+				background-color: rgb(228, 164, 164);
+				opacity: 0.9;
+				padding: 10px;
+				text-align: center;
+			}
+			.navBar a {
+				color: black;
+				text-decoration: none; 
+				margin: 19px;
+			}
+			.navBar a:hover {
+				text-decoration: underline;
+			}
+			.navBar a:active {
+				text-decoration: none;
+				font-weight: bold;
+			}
+			/*END >>>css for nav bar*/
+			/*START >>>css for footer*/
+			.footer{
+				background-color: rgb(228, 162, 162);
+				padding: 11px 16px 1px 16px;
+				text-align: center;
+				font-family: 'Lora', serif;
+				font-size: 10px;
+				margin-top: 0px;
+				bottom: 0;
+				width: 100%;
+			}
+			.footer p{
+				padding: 5px;
+				margin: 0px;
+				text-align: center; 
+			}
+			/*END >>>css for footer*/
+			.row {
+			 	display: flex;
+			}
+			/* Create three equal columns that sits next to each other */
+			.column {
+			  	flex: 33.33%;
+			  	padding: 0px;
+			 	margin: 50px 50px;
+			 	border: 1px solid black;
+			 	background-color: #C0C0C0;
+			 	border-radius: 4px;
+				box-shadow: 11px 11px 10px grey;
+			}
+			.info {/*writhing content*/
+				border:0px solid black;
+				border-radius: 10px;
+				margin: 10px 50px;
+				padding: 20px;
+				background-color: #8fb3e2;
+
+			}
+			.infoPages {
+				margin: 0px;
+				padding: 10px;
+			}
+			.column:hover {
+				border: 1px solid green;
+				box-shadow: 14px 4px 22px grey;
+			}
+			.column:active {
+				border: 1px solid #581845;
+			}
+			img{
+				border-radius: 4px;
+			}
+			a > h3 {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="navBar">
+			<a href="indexPage.html">Home</a>
+			<a href="pages/blog.html">Blog</a>
+			<a href="pages/portfolio.html">Portfolio</a>
+			<a href="pages/research.html">Research</a>
+			<a href="pages/feedback.html">Feedback</a>
+		</div>
+
+
+		<div class="info">
+			<h2>Introduction</h2>
+			<p>
+				Computer programmers design, develop and test software and ensure software adheres to best practices in performance, reliability and security. Computer programmers can work developing mobile applications, coding video games, programming websites and much more. <a href="https://www.internetlivestats.com)">source</a>.
+				<br> 
+				
+			</p>
+			
+		</div>
+		<div><!--this div is to delete when the work is done-->
+			<div style="background-image: url(./images/homep.jpeg); background-position: center; background-size: cover; padding: 20px">
+				<h1><span style="background-color: white; padding: 0px 9px">
+				I am a Programmer
+				</span></h1>
+			</div>
+
+			<div class="info" style="background-image: url(./images/homep.jpeg); background-position: center; background-size: cover; color: white;">
+					<p>
+						Progarming is necessary to see what everyone else has seen and done, and to think and do what no one has thought and done. Research helps us improve it makes us do thing differently while learning from others experience. So, to make my website better research on different topics were carried out.
+					</p>
+				</div>		
+		<footer>
+			<div class="footer">
+				<p style="font-size: 15px;margin-bottom: 1px;">Don't forget to give a <a href="pages/feedback.html">Feedback</a>!</p><hr>
+				<p style="font-size: 37px;">Nitesh Thapa</p>
+				<p style="font-size: 20px">Kathmandu, Nepal</p>
+				<p style="font-size: 17px">+977-9800565660 | +01-100000</p>
+				<p style="font-size: 7px; opacity: 0.5;">&copy;2021 All rights reserved. | Nitesh Thapa </p>
+			</div>
+		</footer>
+	</body>
+</html>

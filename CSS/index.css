@@ -1,0 +1,49 @@
+/*External css for other pages*/
+body {
+  background-color: white;
+  font-family: roboto;
+}
+h1 {
+  font-size: 49px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+h2 {
+  font-size: 33px;
+  font-family: "Oswald", sans-serif;
+}
+p {
+  font-family: "Lora", serif;
+  font-family: roboto;
+  text-align: justify;
+}
+q {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: roboto;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: none;
+  font-weight: bold;
+}
+footer {
+  background-color: rgb(243, 140, 140);
+  padding: 11px 16px 1px 16px;
+  text-align: center;
+  font-family: "Lora", serif;
+  font-size: 10px;
+  margin-top: 0px;
+  bottom: 0;
+  width: 100%;
+}
+footer p {
+  text-align: center;
+  padding: 5px;
+  margin: 0px;
+}

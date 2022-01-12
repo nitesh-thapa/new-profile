@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Impact of Technology</title>
+		<meta name="description" content="Coursw work" />
+		<meta name="keywords" content="HTML,CSS,JS,Resume,student" />
+		<meta name="author" content="Nitesh Thapa" />
+		<meta http-equiv="refresh" content="2" />
+		<!--Linking csse-->
+		<link rel="stylesheet" type="text/css" href="../CSS/index.css">
+		<!--importing font from google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Lora|Oswald" rel="stylesheet">
+		<!--importing icons-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>/*Styling for nav bar and footer*/
+			/*START >>>css for nav bar*/
+			.navBar {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0;
+				background-color: rgb(238, 164, 164);
+				opacity: 0.9;
+				padding: 10px;
+				text-align: center;
+			}
+			.navBar a {
+				color: black;
+				text-decoration: none; 
+				margin: 19px;
+			}
+			.navBar a:hover {
+				text-decoration: underline;
+			}
+			.navBar a:active {
+				text-decoration: none;
+				font-weight: bold;
+			}
+			/*END >>>css for nav bar*/
+			
+		</style>
+	<style>
+		/*START >>>css for blog contents*/
+		.info {/*writhing content*/
+			border: 1px solid black;
+			border-radius: 4px;
+			margin: 50px 150px;
+			padding: 30px 30px;
+			background-color: #73d4ec;
+		}
+		.infoSlide {
+			border: 0px solid black;
+			border-radius: 0px;
+			margin: 22px -8px;
+			padding: 30px 10px;
+			background-color: #94f3e6;
+		}
+		.moreInfo{
+			margin-top: 33px;
+			padding: 10px;
+			background-color: white;
+			height: 300px;
+		}
+		h2 > span{
+			padding: 10px;
+			border-radius: 50px;
+			background-color: #DCDCDC;
+		}
+		/*END >>>css for blog contents*/
+	</style>
+	<style>/*Styile for slide show*/
+		.mySlides {
+			display: none;
+		}
+		img {
+			vertical-align: middle;
+		}
+		/* Slideshow container */
+		.slideshow-container {
+		  	max-width: 1000px;
+		  	margin: auto;
+		}
+		/* slide indicators */
+		.dot {
+		 	cursor: pointer;
+		  	height: 4px;
+		  	width: 19px;
+		  	margin: 2px;
+		  	background-color: grey;
+		  	border-radius: 0%;
+		  	display: inline-block;
+		  	transition: background-color 0.6s ease;
+		}
+		.dot:hover {
+		  		background-color: black; 
+		}
+		.active{
+		  	background-color: black;
+		  	width: 33px;  
+		}
+	</style>
+</head>
+<body>
+	<!--START nav bar-->
+	<div class="navBar">
+		<a href="../indexpage.html">Home</a>
+		<a href="../pages/blog.html">Blog</a>
+		<a href="../pages/portfolio.html">Portfolio</a>
+		<a href="../pages/research.html">Research</a>
+		<a href="../pages/feedback.html">Feedback</a>
+	</div>
+	<!--END nav bar-->
+	<h1 style="margin-top: 0.5%;">This is blog page</h1>
+		<h2 style="text-align: center; margin-top: 0%;">Impact of Technology</h2>
+	<div class="infoSlide">
+		<div class="slideshow-container"><!--slide show div-->
+		   	<div class="mySlides">
+		   		<img src="../images/slide1.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide2.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide3.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide4.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide5.jpg" style="width:100%">
+		  	</div>
+		  	<div class="mySlides">
+		   		<img src="../images/slide6.jpg" style="width:100%">
+		  	</div>
+		</div>
+		<div style="text-align:center">
+		  	<span class="dot" onclick="currentSlide(1)"></span> 
+		  	<span class="dot" onclick="currentSlide(2)"></span> 
+		  	<span class="dot" onclick="currentSlide(3)"></span>
+		  	<span class="dot" onclick="currentSlide(4)"></span>
+		  	<span class="dot" onclick="currentSlide(5)"></span>
+		  	<span class="dot" onclick="currentSlide(6)"></span>
+		</div>
+		<script type="text/javascript" src="../JavaScript/slideShow.js"></script>
+	</div>
+	<div class="info"><!--this div includes blog contents-->
+    	<h2><span>Impact of Technology on Society</span></h2>
+    	<p>
+    		Consider the days before computers and contemporary modes of transportation. Because of the scarcity of technology applications, human existence was severely hampered. Everyday living required a lot of physical exercise. The ordinary man's life was not as lavish as that of today, but he was more active. Exercise was included into everyday physical activity. It was diametrically opposed to today's sedentary lifestyle, which gives little time for exercise and fills days with lethargy and laziness. We don't want to anymore, and owing to technological advancements, we don't even need to walk, move about, or strain ourselves physically to tremendous extents to get things done.
+		</p>
+    </div>
+    <div class="info"><!--this div includes blog contents-->
+    	<h2><span>Impact of Technology on Social Media</span></h2>
+    	<p>
+    		Email, social networking, instant messaging and chat, telephony, videoconferencing, forums, blogs, and even regular human communication such as face-to-face chats, business meetings, presentations, and body language are all kinds of social media. Social media is an essential component of any organization since individuals must interact in order to complete tasks. As technology evolves to include a more human-friendly feature, such as social-based operating systems and communication-oriented software applications, social media interactions are becoming increasingly significant.
+		</p>
+    </div>
+    <div class="info"><!--this div includes blog contents-->
+    	<h2><span>Impact of Technology on Education</span></h2>
+    	<p>
+    		Technology has undoubtedly altered the way we live. It has had an influence on several aspects of life and has redefined living. Without a question, technology plays a significant part in all aspects of life. Several boring manual jobs may now be automated owing to technological advancements. Furthermore, with the assistance of contemporary technology, many difficult and crucial procedures may be carried out with increased ease and efficiency. Living has changed for the better as a result of the use of technology.
+			<br>
+    		People consider technology to be a gift to society. I'm afraid it's not entirely beneficial. The Internet has given rise to a slew of unethical acts such as hacking, spamming, and phishing. Crime on the internet is on the rise. Because the Internet is an open platform, it is unregulated. There are no rules governing the material shown on websites. Many people have developed an addiction to online gambling. Overexposure to the Internet has had an effect. You may be who you are not in this virtual world, and you can live electronically even after you die. Isn't this strange? Children are spending all of their time playing online and very little time playing outside. Young people spend the most of their time socializing, m
+		</p>
+    </div>
+    <div class="info"><!--this div includes blog contents-->
+    	<h2><span>Impact of Technology on Healthcare </span></h2>
+    	<p>
+    		Constant new technologies in medicine have helped many people and improved the lives of thousands more people. Technology has not only altered the lives of patients and their families, but it has also had a significant influence on medical procedures and the practices of healthcare providers.
+		</p>
+    </div>
+	<!--footer section-->	
+	<footer>
+		<div class="footer">
+			<p style="font-size: 15px;margin-bottom: 1px;">Don't forget to give a <a href="pages/feedback.html">Feedback</a>!</p><hr>
+			<p style="font-size: 37px;">Nitesh Thapa</p>
+			<p style="font-size: 20px">Kathmandu, Nepal</p>
+			<p style="font-size: 17px">+977-9800565660 | +01-100000</p>
+			<p style="font-size: 7px; opacity: 0.5;">&copy;2021 All rights reserved. | Nitesh Thapa </p>
+		</div>
+	</footer>
+</body>
+</html>
